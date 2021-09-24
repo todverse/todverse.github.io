@@ -1,0 +1,56 @@
+.container {
+    width: 50%;
+    margin: auto;
+}
+.file {
+    border: 1px solid black;
+    color: green;
+    width: 150px;
+    margin-left: 495px;
+    text-align: center;
+}
+.file_2 {
+    border: 1px solid black;
+    color: green;
+    width: 150px;
+    text-align: center;
+}
+.boxFile_2 {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 76px;
+    left: 575px;
+}
+.folder {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 470px;
+    text-align: center;
+    color: orangered;
+}
+.folder_2 {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 470px;
+    text-align: center;
+    color: orangered;
+}
+.folder_3 {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    color: orangered;
+    position: absolute;
+    top: 36px;
+    left: 550px;
+}
+.fileCore {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 38px;
+    left: 340px;
+}

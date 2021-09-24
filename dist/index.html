@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>html-vue-test.git</title>
+    <link href="css/app.932328e5.css" rel="preload" as="style">
+    <link href="js/app.3f6310c1.js" rel="preload" as="script">
+    <link href="js/chunk-vendors.f63a5a99.js" rel="preload" as="script">
+    <link href="css/app.932328e5.css" rel="stylesheet">
+    </head>
+  <body>
+      <noscript>
+        <strong>We're sorry but html-vue-test.git doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div id="app">
+
+        </div>
+        <script src="js/chunk-vendors.f63a5a99.js"></script>
+        <script src="js/app.3f6310c1.js"></script>
+        <script>
+          var a = document.getElementsByClassName('fileBox_file');
+        for(var i = 0; i < 10; i++) {
+          if(a[i].innerHTML.slice(-3) == 'svg') {
+            a[i].classList.add('file');
+          }
+        }
+        var b = document.getElementsByClassName('file');
+        for(var i = 0; i < 4; i++) {
+          b[i].classList.remove('fileBox_file');
+        }
+        var a = document.getElementsByClassName('fileBox_file');
+        for(var i = 0; i < 7; i++) {
+          if(a[i].innerHTML.slice(-4) == 'jpeg' | a[i].innerHTML.slice(-3) == 'png' | a[i].innerHTML.slice(-3) == 'jpg') {
+            a[i].classList.add('file_2');
+          }
+        }
+        var b = document.getElementsByClassName('file_2');
+        for(var i = 0; i < 3; i++) {
+          b[i].classList.remove('fileBox_file');
+        }
+        var body = document.getElementsByTagName('body');
+        var div = document.createElement('div');
+        div.classList.add('boxFile_2');
+        body[0].appendChild(div);
+        console.log(div);
+        div.appendChild(b[0]);
+        div.appendChild(b[1]);
+        console.log(b[0]);
+        div.appendChild(b[0]);
+        
+    
+    
+        var a = document.getElementsByClassName('folderBox_folder');
+        for(var i = 0; i < 4; i++) {
+          if (a[i].innerHTML == 'icons') {
+            a[i].classList.add('folder');
+            console.log(a[i]);
+          }
+        }
+        var b = document.getElementsByClassName('folder');
+        b[0].classList.remove('folderBox_folder');
+        
+        var a = document.getElementsByClassName('folderBox_folder');
+        for(var i = 0; i < 3; i++) {
+          if (a[i].innerHTML == 'assets') {
+            a[i].classList.add('folder_2');
+            console.log(a[i]);
+          }
+        }
+        var b = document.getElementsByClassName('folder_2');
+        b[0].classList.remove('folderBox_folder');
+    
+        var a = document.getElementsByClassName('folderBox_folder');
+        for(var i = 0; i < 2; i++) {
+          if (a[i].innerHTML == 'backgrounds') {
+            a[i].classList.add('folder_3');
+            console.log(a[i]);
+          }
+        }
+        var b = document.getElementsByClassName('folder_3');
+        b[0].classList.remove('folderBox_folder');
+        var a = document.getElementsByClassName('fileBox_file');
+        var div2 = document.createElement('div');
+        div2.classList.add('fileCore');
+        body[0].appendChild(div2);
+        div2.appendChild(a[0]);
+        div2.appendChild(a[1]);
+        div2.appendChild(a[0]);
+        div2.appendChild(a[0]);</script>
+      </body>
+      </html>
